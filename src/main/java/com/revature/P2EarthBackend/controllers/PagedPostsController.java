@@ -16,7 +16,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping(value = "pagedposts")
-@CrossOrigin(origins = "http://social-network-frontend.s3-website.us-east-2.amazonaws.com", allowCredentials = "true")
+@CrossOrigin(origins = "http://localhost:4200", allowCredentials = "true")
 public class PagedPostsController {
 
     private PagedPostsService pagedPostsService;
