@@ -18,7 +18,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping(value = "users")
-@CrossOrigin(origins = "*", allowCredentials = "true")
+@CrossOrigin(origins = "http://social-network-frontend.s3-website.us-east-2.amazonaws.com", allowCredentials = "true")
 public class UsersController {
 
     private UsersService usersService;
